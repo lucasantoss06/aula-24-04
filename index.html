@@ -1,52 +1,76 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Meus Materiais a Serem Estudados</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site sobre Carros</title>
     <style>
         body {
-            background-color: #f0f8ff;
             font-family: Arial, sans-serif;
-            margin: 40px;
+            line-height: 1.6;
+            background-color: #ADD8E6;
+            margin: 0;
+            padding: 0;
         }
 
-        h1 {
+        header {
             text-align: center;
-            color: #2c3e50;
-            font-size: 2em;
+            margin-top: 20px;
+        }
+
+        header img {
+            width: 35%;
         }
 
         p {
             text-align: justify;
-            color: #333;
-            font-size: 1.1em;
-            line-height: 1.6;
-            margin-bottom: 20px;
+            margin: 20px 0;
+            padding: 0 10%;
+            font-size: 18px;
         }
 
-        p:first-of-type {
-            color: #0000FF;
-            font-family: 'Courier New', monospace;
+        .images {
+            float: right;
+            width: 25%;
+            margin-right: 2%;
+            margin-left: 2%;
         }
 
-        #marca {
-            background-color: #e0f7fa;
-            padding: 15px;
-            border-left: 5px solid #00796b;
-            font-weight: bold;
+        .images img {
+            display: block;
+            width: 100%;
+            margin-bottom: 10px;
         }
     </style>
 </head>
 <body>
-    <h1>Você já ouviu falar de Programação?</h1>
 
-    <p>As linguagens de programação podem ser classificadas em vários tipos, com as principais distinções sendo entre linguagens de baixo nível (que se aproximam do hardware) e linguagens de alto nível (que são mais fáceis para humanos entenderem).</p>
+    <!-- Cabeçalho com imagem centralizada -->
+    <header>
+        <img src="https://www.carroaluguel.com/blog/wp-content/uploads/2016/09/Pagani-Zonda-R.jpg" alt="Tema Carros">
+    </header>
 
-    <p>Além disso, existem diferentes categorias como linguagens de aplicação, linguagens de fluxo de dados, linguagens concorrentes, e outras.</p>
+    <!-- Imagens alinhadas à direita -->
+    <div class="images">
+        <img src="https://www.carroaluguel.com/blog/wp-content/uploads/2016/09/Ferrari-LaFerrari.jpg" alt="Carro 1">
+        <img src="https://www.carroaluguel.com/blog/wp-content/uploads/2016/09/Jaguar-F-Type.jpg" alt="Carro 2">
+        <img src="https://www.carroaluguel.com/blog/wp-content/uploads/2016/09/Lamborghini-Aventador.jpg" alt="Carro 3">
+        <img src="https://www.carroaluguel.com/blog/wp-content/uploads/2016/09/Bugatti-Veyron.jpg" alt="Carro 4">
+        <img src="https://www.carroaluguel.com/blog/wp-content/uploads/2016/09/Maserati-Gran-Turismo-S.jpg" alt="Carro 5">
+    </div>
 
-    <p><em>1. Linguagens de baixo nível: <strong>"Linguagem de máquina: É a linguagem mais básica, compreendida diretamente pelo processador, usando código binário (0s e 1s). Linguagem de montagem (Assembly): Uma linguagem mais legível do que a máquina, mas ainda bastante específica para o hardware."</strong></em></p>
+    <!-- Parágrafos sobre carros -->
+    <p>Os carros são mais do que simples meios de transporte. Eles são símbolos de liberdade, status e, para muitos, uma verdadeira paixão. Desde os primeiros automóveis criados no final do século XIX até os modernos modelos híbridos e elétricos, os carros evoluíram não apenas em termos de tecnologia, mas também em design e performance.</p>
 
-    <p id="marca">Linguagens de marcação: Criadas para estruturar conteúdo, como HTML e XML. 
-    Linguagens de estilização: Usadas para definir a aparência de elementos em páginas web, como CSS.</p>
+    <p>Com o avanço da engenharia automotiva, os carros passaram a incorporar tecnologias inovadoras que aumentam a segurança, eficiência e conforto dos motoristas e passageiros. Sistemas como controle de estabilidade, frenagem automática, assistência de faixa e câmeras de ré transformaram a experiência de dirigir, tornando-a mais segura e fácil.</p>
+
+    <p>Os carros esportivos sempre foram um símbolo de potência e velocidade. Marcas como Ferrari, Lamborghini e Porsche são associadas ao luxo e desempenho excepcionais. Esses carros não são apenas meios de transporte, mas também obras de arte sobre rodas, com designs aerodinâmicos e interiores sofisticados que atraem olhares por onde passam.</p>
+
+    <p>Além dos carros esportivos, há também uma grande demanda por veículos utilitários, como SUVs e picapes, que oferecem mais espaço e versatilidade. Esses modelos são ideais para quem busca praticidade, seja para viagens familiares ou para o trabalho pesado. Marcas como Ford, Toyota e Jeep têm sido pioneiras nesse segmento, oferecendo modelos com tração nas quatro rodas e outros recursos inovadores.</p>
+
+    <p>O mercado de carros elétricos está crescendo rapidamente, impulsionado pela necessidade de alternativas sustentáveis aos motores a combustão. Modelos como o Tesla Model S e o Nissan Leaf estão ajudando a redefinir o futuro dos carros, com baterias de longa duração e emissão zero. Esses veículos são uma resposta à crescente preocupação com as mudanças climáticas e a redução da dependência de combustíveis fósseis.</p>
+
+    <p>A paixão por carros também se reflete em eventos como feiras e exposições automotivas, onde entusiastas se reúnem para mostrar seus veículos, desde modelos clássicos até os mais modernos. Esses eventos são uma oportunidade para os fabricantes apresentarem suas inovações e para os consumidores se conectarem com o mundo automotivo, compartilhando conhecimentos e experiências.</p>
+
 </body>
 </html>
